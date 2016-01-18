@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  GameViewController.h
 //  TicTacToe
 //
 //  Created by Nicholas Naudé on 16/01/2016.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface GameViewController : UIViewController
 
+@property UIImage *noughtImg;
+@property UIImage *crossImg;
+@property int playerToken;
 
 @end
-
